@@ -1,0 +1,24 @@
+{
+  "name": "api-20k",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "google-spreadsheet": "^3.3.0",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/google-spreadsheet": "^3.2.2"
+  }
+}
